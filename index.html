@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('get', 'js/data.json', true);
+        xhr.send();
+        console.log(xhr);
+        xhr.onload = function() {
+            if(xhr.status === 200) {
+                console.log(xhr);
+            }
+        }
+    </script>
+</body>
+</html>
