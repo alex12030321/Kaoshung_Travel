@@ -219,12 +219,13 @@ li p.time img {
 }
 
 li p.time {
+    height: 16px;
     padding-left: 50px;
     margin-top: 16px;
     font-family: AppleSystemUIFont;
     font-size: 16px;
     color: #000000;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 li p.address img {
@@ -234,9 +235,10 @@ li p.address img {
 }
 
 li p.address {
+    height: 16px;
     padding-left: 50px;
     margin-top: 16px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 li p.tel img {
@@ -246,9 +248,10 @@ li p.tel img {
 }
 
 li p.tel {
+    height: 16px;
     padding-left: 50px;
     margin-top: 16px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 li img[src="images/icons_tag.png"] {
