@@ -6,5 +6,5 @@ xhr.onload = function() {
     }
 }
 
-xhr.open('get', 'data.json', true);
+xhr.open('get', 'js/data.json', true);
 xhr.send(null);
