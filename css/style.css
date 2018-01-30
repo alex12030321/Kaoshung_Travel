@@ -273,6 +273,7 @@ ul li:nth-child(2n) {
     position: fixed;
     right: 15%;
     bottom: 195px;
+    display: none;
 }
 
 footer {
